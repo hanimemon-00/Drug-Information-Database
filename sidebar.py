@@ -46,7 +46,7 @@ def build_sidebar(
         autofocus=True if search_value else False,  # 👈 ADD THIS LINE
     )
 
-    system_dropdown = ft.DropdownM2(
+    system_dropdown = ft.Dropdown(
         value=system_value,
         options=[ft.dropdown.Option("All Systems")]
         + [ft.dropdown.Option(s) for s in systems],
