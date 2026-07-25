@@ -1,7 +1,8 @@
 {
   "buildCommand": "echo Using pre-built static files, no build needed",
+  "outputDirectory": "build/web",
   "framework": null,
   "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
