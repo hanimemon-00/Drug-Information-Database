@@ -1,5 +1,7 @@
 {
-  "cleanUrls": true,
+  "buildCommand": "echo Using pre-built static files, no build needed",
+  "outputDirectory": "build/web",
+  "framework": null,
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ]
